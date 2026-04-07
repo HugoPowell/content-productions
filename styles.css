@@ -1,0 +1,311 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #edf4f6ff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bdd4d9ff;
+  line-height: 1.6;
+  padding: 2rem;
+  height: 100vh;
+}
+
+/* Branding placement on landing page */
+.branding {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 3.5rem;
+}
+
+/* Branding2 placement on landing page */
+.branding2 {
+  position: absolute;
+  top: 15rem;
+  left: 15rem;
+  font-size: 3.5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.regular {
+  font-weight: 300;
+}
+
+/* Content spacing on Page 1 */
+.content-area {
+  position: relative;
+  height: 80vh;
+}
+
+.quote {
+  width: 40%;
+  font-size: 1.1rem;
+}
+
+.top-left {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.top-right {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+
+.center-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Centered Next Button */
+.next.centered {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 2rem;
+  left: 52%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #bdd4d9ff;
+}
+
+.next.centered:hover {
+  color: #edf4f6ff;
+}
+
+/* Buttons on Landing Page */
+.btn-group {
+  margin-top: 2rem;
+}
+
+/* Centered back Button */
+.back.centered {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 2rem;
+  left: 48%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #bdd4d9ff;
+}
+
+.next.centered:hover {
+  color: #edf4f6ff;
+}
+
+/* Buttons on Landing Page */
+.btn-group {
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  border: 1px solid #bdd4d9ff;
+  color: #bdd4d9ff
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #bdd4d9ff;
+  color: #bdd4d9ff
+}
+
+/* Centered container for landing page */
+.container.center {
+  text-align: center;
+  margin-top: 35vh;
+}
+
+/* Positioning helpers */
+.top-left {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.mid-centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+}
+
+.mid-right {
+  position: absolute;
+  top: 39%;
+  right: 45%;
+  width: 40%;
+}
+
+.mid-left {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 40%;
+}
+
+.upper-mid-left {
+  position: absolute;
+  top: 31%;
+  left: 5%;
+  width: 40%;
+}
+.bottom-center {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+/* Work Grid */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 6rem;
+}
+
+.work-item {
+  background-color: #d9e7e9;
+  border: 1px solid #0b1a1d;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #0b1a1d;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 6rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #0b1a1d;
+  background-color: #edf4f6;
+  color: #0b1a1d;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #a82c2c;
+}
+
+.submit-btn {
+  align-self: flex-end;
+  border: 1px solid #0b1a1d;
+  background: none;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-btn:hover {
+  background-color: #0b1a1d;
+  color: #fff;
+}
+
+/* Staggered Embed Layout */
+.embed-step {
+  width: fit-content;
+  margin-bottom: 4rem;
+}
+
+.step-1 {
+  margin-left: 0%;
+  margin-top: 10rem;
+}
+
+.step-2 {
+  margin-left: 10%;
+}
+
+.step-3 {
+  margin-left: 20%;
+}
+
+.embed-desc {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  max-width: 560px;
+  color: #0b1a1d;
+}
+
+/* Staggered Embed Layout - extended to 6 steps */
+.embed-step {
+  width: fit-content;
+  margin-bottom: 4rem;
+}
+
+.step-1 { margin-left: 0%; margin-top: 10rem; }
+.step-2 { margin-left: 10%; }
+.step-3 { margin-left: 20%; }
+.step-4 { margin-left: 30%; }
+.step-5 { margin-left: 40%; }
+.step-6 { margin-left: 50%; }
+
+.embed-desc {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  max-width: 560px;
+  color: #0b1a1d;
+}
+
+/* Honeypot (invisible) */
+.hp {
+  display: none;
+}
+
+/* Form feedback */
+.form-status {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #0b1a1d;
+}
+
+/* Thank you pages */
+.container.center h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.thanks-block {
+  margin-bottom: 3rem;
+}
