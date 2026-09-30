@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <h2 class="headline top-left">Contact</h2>
+    <h2 class="page-headline">Contact</h2>
 
     <form
       id="contact-form"
@@ -16,7 +16,6 @@
       method="POST"
       class="contact-form"
     >
-      <!-- Honeypot (spam protection) -->
       <input type="text" name="company" tabindex="-1" autocomplete="off" class="hp">
 
       <label for="name">Name</label>
@@ -34,8 +33,18 @@
     </form>
   </div>
 
-  <a href="../index.html" class="next centered">← home</a>
-  <a href="page4.html" class="back centered">← back</a>
+  <div class="nav-wrap">
+    <a href="../index.html" class="next">← Home</a>
+  </div>
+
+  <nav class="bottom-nav">
+    <a href="../index.html">Home</a>
+    <a href="page1.html">Definitions</a>
+    <a href="page2.html">Substance</a>
+    <a href="page3.html">Services</a>
+    <a href="page4.html">Work</a>
+    <a href="page5.html" class="active">Contact</a>
+  </nav>
 
   <script>
     const form = document.getElementById('contact-form');
@@ -54,7 +63,6 @@
 
         if (response.ok) {
           window.location.href = "../thank-you.html";
-
         } else {
           status.textContent = "Something went wrong. Please try again.";
         }
