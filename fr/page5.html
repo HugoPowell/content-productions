@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <h2 class="headline top-left">Contact</h2>
+    <h2 class="page-headline">Contact</h2>
 
     <form
       id="contact-form"
@@ -33,8 +33,18 @@
     </form>
   </div>
 
-  <a href="../index.html" class="next centered">← accueil</a>
-  <a href="page4.html" class="back centered">← retour</a>
+  <div class="nav-wrap">
+    <a href="../index.html" class="next">← Accueil</a>
+  </div>
+
+  <nav class="bottom-nav">
+    <a href="../index.html">Accueil</a>
+    <a href="page1.html">Définitions</a>
+    <a href="page2.html">Substance</a>
+    <a href="page3.html">Services</a>
+    <a href="page4.html">Réalisations</a>
+    <a href="page5.html" class="active">Contact</a>
+  </nav>
 
   <script>
     const form = document.getElementById('contact-form');
