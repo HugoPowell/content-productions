@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1200" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice">
   <text
     x="50%"
-    y="65%"
+    y="95%"
     font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
-    font-size="700"
+    font-size="1400"
     font-weight="700"
     text-anchor="middle"
     fill="#c8dade"
-    letter-spacing="-20">content</text>
+    letter-spacing="-40">content</text>
 </svg>
