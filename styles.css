@@ -17,6 +17,18 @@ body {
   min-height: 100dvh;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  pointer-events: none;
+}
+
 /* ---------- Landing page branding ---------- */
 .branding {
   position: absolute;
