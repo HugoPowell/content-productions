@@ -395,7 +395,7 @@ ol {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
-  /* Headings on flow pages (Work, Contact) */
+/* ---------- Page headlines (Work, Contact) ---------- */
 .page-headline {
   font-size: 2rem;
   font-weight: 300;
@@ -403,8 +403,20 @@ ol {
   letter-spacing: 0.12em;
   color: #0b1a1d;
   margin-bottom: 3rem;
+}
 
-   /* Inline links inside body text */
+/* ---------- Project title above each embed ---------- */
+.embed-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0b1a1d;
+}
+
+/* ---------- Inline links inside body text ---------- */
 a.inline-link:link,
 a.inline-link:visited,
 a.inline-link:hover,
@@ -418,16 +430,5 @@ a.inline-link:active {
 
 a.inline-link:hover {
   text-decoration-thickness: 2px;
-}
-}
-   /* Project title above each embed */
-.embed-title {
-  margin-top: 1;
-  margin-bottom: 10rem;      /* this is the gap between title and media */
-  font-size: 10rem;
-  font-weight: 1000;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #0b1a1d;
 }
 
