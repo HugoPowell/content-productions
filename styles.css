@@ -421,5 +421,15 @@ a.inline-link:hover {
 a.inline-link:visited {
   color: inherit;
 }
+   /* Project title above each embed */
+.embed-title {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0b1a1d;
+}
 }
 }
