@@ -405,7 +405,10 @@ ol {
   margin-bottom: 3rem;
 
    /* Inline links inside body text */
-a.inline-link {
+a.inline-link:link,
+a.inline-link:visited,
+a.inline-link:hover,
+a.inline-link:active {
   color: inherit;
   font-weight: 700;
   text-decoration: underline;
@@ -416,17 +419,13 @@ a.inline-link {
 a.inline-link:hover {
   text-decoration-thickness: 2px;
 }
-
-/* Stop the browser from forcing blue/purple on visited links */
-a.inline-link:visited {
-  color: inherit;
 }
    /* Project title above each embed */
 .embed-title {
   margin-top: 1rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 2rem;
   font-size: 1rem;
-  font-weight: 1000;
+  font-weight: 1200;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #0b1a1d;
