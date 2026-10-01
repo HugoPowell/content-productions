@@ -422,13 +422,14 @@ a.inline-link:hover {
 }
    /* Project title above each embed */
 .embed-title {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: 2rem;      /* this is the gap between title and media */
   font-size: 1rem;
-  font-weight: 1200;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #0b1a1d;
+}
 }
 }
 }
