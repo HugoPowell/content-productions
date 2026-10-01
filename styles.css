@@ -423,9 +423,12 @@ a.inline-link:hover {
    /* Project title above each embed */
 .embed-title {
   margin-top: 1;
-  margin-bottom: 0.25rem;      /* this is the gap between title and media */
+  margin-bottom: 2rem;      /* this is the gap between title and media */
   font-size: 2rem;
   font-weight: 1000;
+     text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #0b1a1d;
