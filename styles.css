@@ -403,5 +403,23 @@ ol {
   letter-spacing: 0.12em;
   color: #0b1a1d;
   margin-bottom: 3rem;
+
+   /* Inline links inside body text */
+a.inline-link {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a.inline-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Stop the browser from forcing blue/purple on visited links */
+a.inline-link:visited {
+  color: inherit;
+}
 }
 }
