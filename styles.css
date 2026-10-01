@@ -424,12 +424,10 @@ a.inline-link:hover {
 .embed-title {
   margin-top: 1;
   margin-bottom: 10rem;      /* this is the gap between title and media */
-  font-size: 2rem;
+  font-size: 10rem;
   font-weight: 1000;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #111111;
+  color: #0b1a1d;
 }
-}
-}
-}
+
