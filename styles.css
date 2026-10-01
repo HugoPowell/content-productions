@@ -252,9 +252,9 @@ ol {
 /* ---------- Project title above each embed ---------- */
 .embed-title {
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #0b1a1d;
