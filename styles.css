@@ -249,6 +249,43 @@ ol {
   color: #0b1a1d;
 }
 
+/* ---------- Project title above each embed ---------- */
+.embed-title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #0b1a1d;
+}
+
+/* ---------- Page headlines (Work, Contact) ---------- */
+.page-headline {
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #0b1a1d;
+  margin-bottom: 3rem;
+}
+
+/* ---------- Inline links inside body text ---------- */
+a.inline-link:link,
+a.inline-link:visited,
+a.inline-link:hover,
+a.inline-link:active {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a.inline-link:hover {
+  text-decoration-thickness: 2px;
+}
+
 /* ---------- Contact form ---------- */
 .contact-form {
   display: flex;
@@ -360,7 +397,6 @@ ol {
     margin-bottom: 3rem;
   }
 
-  /* Full-width video on phones */
   .embed-step .video-frame {
     aspect-ratio: 9 / 16;
   }
@@ -395,40 +431,14 @@ ol {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
-/* ---------- Page headlines (Work, Contact) ---------- */
-.page-headline {
-  font-size: 2rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #0b1a1d;
-  margin-bottom: 3rem;
-}
 
-/* ---------- Project title above each embed ---------- */
-.embed-title {
-  margin-top: 0;
-  margin-bottom: 4rem;
-  font-size: 1rem;
-  font-weight: 2000;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #000000;
-}
+  .page-headline {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
 
-/* ---------- Inline links inside body text ---------- */
-a.inline-link:link,
-a.inline-link:visited,
-a.inline-link:hover,
-a.inline-link:active {
-  color: inherit;
-  font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+  .embed-title {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
 }
-
-a.inline-link:hover {
-  text-decoration-thickness: 2px;
-}
-
