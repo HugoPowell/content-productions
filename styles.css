@@ -28,7 +28,13 @@ body::before {
   z-index: -1;
   pointer-events: none;
 }
-
+body.page-home::before        { background-position: 50% 50%; }
+body.page-definitions::before { background-position: 20% 30%; }
+body.page-substance::before   { background-position: 80% 60%; }
+body.page-services::before    { background-position: 15% 80%; }
+body.page-work::before        { background-position: 70% 25%; }
+body.page-contact::before     { background-position: 40% 70%; }
+body.page-thanks::before      { background-position: 60% 50%; }
 /* ---------- Landing page branding ---------- */
 .branding {
   position: absolute;
