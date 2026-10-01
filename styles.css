@@ -21,20 +21,17 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("bg.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
   pointer-events: none;
 }
-body.page-home::before        { background-position: 50% 50%; }
-body.page-definitions::before { background-position: 20% 30%; }
-body.page-substance::before   { background-position: 80% 60%; }
-body.page-services::before    { background-position: 15% 80%; }
-body.page-work::before        { background-position: 70% 25%; }
-body.page-contact::before     { background-position: 40% 70%; }
-body.page-thanks::before      { background-position: 60% 50%; }
+body.page-1::before { background-image: url("bg1.svg"); }
+body.page-2::before { background-image: url("bg2.svg"); }
+body.page-3::before { background-image: url("bg3.svg"); }
+body.page-4::before { background-image: url("bg4.svg"); }
+body.page-5::before { background-image: url("bg5.svg"); }
 /* ---------- Landing page branding ---------- */
 .branding {
   position: absolute;
