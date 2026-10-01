@@ -32,6 +32,7 @@ body.page-2::before { background-image: url("bg2.svg"); }
 body.page-3::before { background-image: url("bg3.svg"); }
 body.page-4::before { background-image: url("bg4.svg"); }
 body.page-5::before { background-image: url("bg5.svg"); }
+body.page-6::before { background-image: url("bg.svg"); }
 /* ---------- Landing page branding ---------- */
 .branding {
   position: absolute;
