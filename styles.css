@@ -11,10 +11,10 @@
 body {
   background: #edf4f6ff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #bdd4d9ff;
+  color: #bdd4d9ff;   /* ← change this */
   line-height: 1.6;
   padding: 2rem;
-  padding-bottom: 6rem;   /* space so fixed nav doesn't cover content */
+  padding-bottom: 6rem;
   min-height: 100dvh;
 }
 
